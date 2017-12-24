@@ -8,12 +8,26 @@
 
 /* Begin PBXBuildFile section */
 		ED93B6E61FF03F3C00B06B42 /* NAMeter.h in Headers */ = {isa = PBXBuildFile; fileRef = ED93B6E41FF03F3C00B06B42 /* NAMeter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EDDC4C561FF0494C00F12212 /* CGFloat+Math.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDDC4C4F1FF0494B00F12212 /* CGFloat+Math.swift */; };
+		EDDC4C571FF0494C00F12212 /* Interpolation.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDDC4C501FF0494B00F12212 /* Interpolation.swift */; };
+		EDDC4C581FF0494C00F12212 /* UIColor+Interpolation.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDDC4C511FF0494B00F12212 /* UIColor+Interpolation.swift */; };
+		EDDC4C591FF0494C00F12212 /* UIFont+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDDC4C521FF0494B00F12212 /* UIFont+Extensions.swift */; };
+		EDDC4C5A1FF0494C00F12212 /* CGColorSpace+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDDC4C531FF0494B00F12212 /* CGColorSpace+Extension.swift */; };
+		EDDC4C5B1FF0494C00F12212 /* UIColor+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDDC4C541FF0494C00F12212 /* UIColor+Extensions.swift */; };
+		EDDC4C5C1FF0494C00F12212 /* OMMeter.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDDC4C551FF0494C00F12212 /* OMMeter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		ED93B6E11FF03F3C00B06B42 /* NAMeter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NAMeter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED93B6E41FF03F3C00B06B42 /* NAMeter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NAMeter.h; sourceTree = "<group>"; };
 		ED93B6E51FF03F3C00B06B42 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EDDC4C4F1FF0494B00F12212 /* CGFloat+Math.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CGFloat+Math.swift"; sourceTree = "<group>"; };
+		EDDC4C501FF0494B00F12212 /* Interpolation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Interpolation.swift; sourceTree = "<group>"; };
+		EDDC4C511FF0494B00F12212 /* UIColor+Interpolation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Interpolation.swift"; sourceTree = "<group>"; };
+		EDDC4C521FF0494B00F12212 /* UIFont+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIFont+Extensions.swift"; sourceTree = "<group>"; };
+		EDDC4C531FF0494B00F12212 /* CGColorSpace+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CGColorSpace+Extension.swift"; sourceTree = "<group>"; };
+		EDDC4C541FF0494C00F12212 /* UIColor+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Extensions.swift"; sourceTree = "<group>"; };
+		EDDC4C551FF0494C00F12212 /* OMMeter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OMMeter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,6 +60,13 @@
 		ED93B6E31FF03F3C00B06B42 /* NAMeter */ = {
 			isa = PBXGroup;
 			children = (
+				EDDC4C531FF0494B00F12212 /* CGColorSpace+Extension.swift */,
+				EDDC4C4F1FF0494B00F12212 /* CGFloat+Math.swift */,
+				EDDC4C501FF0494B00F12212 /* Interpolation.swift */,
+				EDDC4C551FF0494C00F12212 /* OMMeter.swift */,
+				EDDC4C541FF0494C00F12212 /* UIColor+Extensions.swift */,
+				EDDC4C511FF0494B00F12212 /* UIColor+Interpolation.swift */,
+				EDDC4C521FF0494B00F12212 /* UIFont+Extensions.swift */,
 				ED93B6E41FF03F3C00B06B42 /* NAMeter.h */,
 				ED93B6E51FF03F3C00B06B42 /* Info.plist */,
 			);
@@ -95,6 +116,7 @@
 				TargetAttributes = {
 					ED93B6E01FF03F3C00B06B42 = {
 						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 0920;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -131,6 +153,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EDDC4C581FF0494C00F12212 /* UIColor+Interpolation.swift in Sources */,
+				EDDC4C5B1FF0494C00F12212 /* UIColor+Extensions.swift in Sources */,
+				EDDC4C571FF0494C00F12212 /* Interpolation.swift in Sources */,
+				EDDC4C591FF0494C00F12212 /* UIFont+Extensions.swift in Sources */,
+				EDDC4C5A1FF0494C00F12212 /* CGColorSpace+Extension.swift in Sources */,
+				EDDC4C561FF0494C00F12212 /* CGFloat+Math.swift in Sources */,
+				EDDC4C5C1FF0494C00F12212 /* OMMeter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,6 +282,7 @@
 		ED93B6EA1FF03F3C00B06B42 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -265,6 +295,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.nerdyalpaca.NAMeter;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -273,6 +304,7 @@
 		ED93B6EB1FF03F3C00B06B42 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
